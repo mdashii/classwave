@@ -1,0 +1,29 @@
+.top-nav{
+    background: #006485;
+    height: 80px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.nav-link{
+    color: white;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
+.nav-item{
+    background: #006485;
+    box-shadow:  5px 5px 6px #00475e,
+             -5px -5px 6px #0081ac;
+    margin-left: 5px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.nav-item:hover{
+    background-color: white;
+    
+}
+.active{
+    background-color: white;
+}
